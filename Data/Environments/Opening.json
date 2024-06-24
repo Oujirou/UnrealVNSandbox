@@ -1,0 +1,9 @@
+{
+    "folderName": "Opening",
+    "key": "opening",
+    "textures": {
+        "op1": "Opening",
+        "op2": "Opening2",
+        "op3": "Opening3"
+    }
+  }

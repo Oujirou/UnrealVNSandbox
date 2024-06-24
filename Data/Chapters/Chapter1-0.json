@@ -1,0 +1,35 @@
+{
+  "name": "Chapter 1",
+  "key": "Chapter1-0",
+  "actions": [
+    "bg,opening,op1",
+    "text,nar,c1-1",
+    "spawn,mc,idle,left-center",
+    "text,nar,c1-2",
+    "char,mc,happy",
+    "move,char-mc,-Pposition=right-center,-Ptime=1.0,-Pwait=true",
+    "bg,opening,op2",
+    "move,char-mc,-Pposition=left-center,-Ptime=3.0",
+    "text,nar,c1-3",
+    "bg,opening,op3",
+    "text,nar,c1-4",
+    "bg,opening,op2",
+    "spawn,mc2,idle,right-center",
+    "text,nar,c1-5",
+    "move,char-mc,-Pposition=center,-Ptime=1.0,-Pwait=true",
+    "text,mc,c1-6",
+    "move,char-mc,-Pposition=left-offscreen,-Ptime=2.0",
+    "move,char-mc2,-Pposition=right-offscreen,-Ptime=2.0,-Pwait=true",
+    "despawn,char-mc",
+    "despawn,char-mc2",
+    "chapter,Chapter1-1"
+  ],
+  "text": {
+    "c1-1": "To start out with let's spawn in a main character.",
+    "c1-2": "Sweet, looks like he's in the scene. Now let's move him to the right side of the screen.",
+    "c1-3": "And now slowly move back...",
+    "c1-4": "Now how about another character?",
+    "c1-5": "Behold, a love interest in our story!",
+    "c1-6": "Ah yes, Narcissus would be most pleased with this scene."
+  }
+}

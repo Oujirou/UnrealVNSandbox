@@ -1,0 +1,23 @@
+{
+  "name": "Chapter 1",
+  "key": "Chapter1-1",
+  "actions": [
+    "bg,opening,op1",
+    "text,nar,c1-1",
+    "text,nar,c1-2",
+    "text,nar,c1-3",
+    "spawn,mc,idle,left-offscreen",
+    "move,char-mc,center,-Ptime=1.0",
+    "text,nar,c1-4",
+    "text,mc,c1-5",
+    "text,mc,c1-6"
+  ],
+  "text": {
+    "c1-1": "And here we are again, in the beginning of a new chapter.",
+    "c1-2": "Sadly, our protaganist and the love interest were not meant to be.",
+    "c1-3": "So we shall end this technical demo on a sad note.",
+    "c1-4": "Hey now, look at our main character sliding in from the left!",
+    "c1-5": "And that's good enough for a proof of concept.",
+    "c1-6": "Next up is to take what I've learned and apply it to the next project."
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Love Interest",
+    "key": "mc2",
+    "textures": {
+        "happy": "MC-2/Happy",
+        "idle": "MC-2/Idle",
+        "point": "MC-2/Pointing"
+    }
+}

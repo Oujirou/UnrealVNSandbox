@@ -1,0 +1,9 @@
+{
+    "name": "Main Character",
+    "key": "mc",
+    "textures": {
+        "happy": "MC/Happy",
+        "idle": "MC/Idle",
+        "point": "MC/Pointing"
+    }
+}
